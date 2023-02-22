@@ -1,0 +1,24 @@
+body {
+  background-color: blueviolet;
+}
+h1 {
+  border: cyan;
+}
+ul {
+  background-color: blue;
+  background-color: chartreuse;
+}
+.mainbox {
+  width: 100%;
+  background-color: blueviolet;
+}
+body {
+  background-color: chartreuse;
+}
+.box {
+  width: 400px;
+  background-color: aqua;
+}
+.boxRed {
+  background-color: red;
+}
