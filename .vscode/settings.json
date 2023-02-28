@@ -1,0 +1,6 @@
+{
+    "webvalidator.validateOnSave": true,
+    "webvalidator.showWarning": true,
+    "webvalidator.validationNotification": true,
+    "webvalidator.showInfo": true
+}
