@@ -7,13 +7,12 @@
   width: 200px;
   height: 200px;
   background: #fc8f8f;
-  color: #ffffff;
+  color: #e6e6e6;;
   font-size: 64px;
-  clear: both;
 }
 
 body {
-  background: #e5e5e5;
+  background: #C4C4C4;
 }
 .clearfix {
   clear: both;
@@ -24,7 +23,7 @@ body {
   height: 100px;
   box-align: center;
   background: #fc8f8f;
-  color: #ffffff;
+  color:#e6e6e6;
   font-size: 36px;
   clear: both;
 }
