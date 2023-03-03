@@ -1,0 +1,30 @@
+.wrapper {
+  clear: both;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background: #fc8f8f;
+  color: #ffffff;
+  font-size: 64px;
+  clear: both;
+}
+
+body {
+  background: #e5e5e5;
+}
+.clearfix {
+  clear: both;
+}
+
+.card.small {
+  width: 100px;
+  height: 100px;
+  box-align: center;
+  background: #fc8f8f;
+  color: #ffffff;
+  font-size: 36px;
+  clear: both;
+}
