@@ -1,0 +1,26 @@
+:root {
+  --container-width: 1000px;
+  --basic-space: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100px;
+}
+html {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400px;
+  color: #252525;
+}

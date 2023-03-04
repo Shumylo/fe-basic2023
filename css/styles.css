@@ -1,29 +1,72 @@
 .wrapper {
   clear: both;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  height: 200px;
+  background-color: #e6e6e6;
 }
-
 .card {
   text-align: center;
   width: 200px;
   height: 200px;
-  background: #fc8f8f;
-  color: #e6e6e6;;
+  background-color: #fc8f8f;
+  color: #ffffff;
   font-size: 64px;
+  line-height: 200px;
+  font-weight: 700px;
+}
+.card.small {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 36px;
+}
+.card + .card {
+  margin-left: 15px;
 }
 
-body {
-  background: #C4C4C4;
+.float-left {
+  float: left;
 }
+
+.float-right {
+  float: right;
+}
+
 .clearfix {
   clear: both;
 }
 
-.card.small {
-  width: 100px;
-  height: 100px;
-  box-align: center;
-  background: #fc8f8f;
-  color:#e6e6e6;
-  font-size: 36px;
-  clear: both;
+.py-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.body {
+  background: #c4c4c4;
+}
+
+:root {
+  --container-width: 1000px;
+  --basic-space: 1rem;
+}
+.wrapper {
+  background-color: #e6e6e6;
+}
+.wrapper + .wrapper {
+  margin-top: 50px;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400px;
+  color: #252525;
+}
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
