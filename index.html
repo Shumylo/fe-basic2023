@@ -1,16 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+<html
+    style="font-size: 16px;font-weight: 400;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+</html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="./registration/registration.html">registration</a>
+            <a href="./authorization/authorization.html">authorization</a>
+            <a href="./search/search.html">search</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section">
+            <div class="container" style="height: 400px; display: 50px;">
+                <h1>forms</h1>
+                <form class="form" action="https://fom.in.ua/echo" method="post">
+                    <fieldset>
+                        <fieldset>
+                            <select name="select" id=""></select>
+                            <p class="description"
+                                style="margin-top: 50px; min-width: max-content;margin-left: auto;margin-right: auto;font-size: 2rem;position: relative;">
+                                <label>
+                                    <legend>Your data</legend>
+                                    <input type="text">
+                                </label>
+                            </p>
+                        </fieldset>
+                        <p>
+                            <label>
+                                <input name="email" type="email" required placeholder="email">
+                            </label> <br>
+                        </p>
+                        <label>
+                            <input type="password" name="password" placeholder="password">
+                        </label> <br>
+                        <label>
+                            <input type="Confirm the password" name="Confirm the password" placeholder="Confirm the password"> 
+                        </label> <br>
+                        <label>
+                            <input name="phone" type="tel" placeholder="phone">
+                        </label> <br>
+                        <label>
 
+
+
+                            <fieldset>
+                                <legend>course info</legend>
+                                <textarea placeholder="Message"></textarea>
+                            </fieldset>
+                            <select name="select" multiple>
+                                <option value="0" disabled selected>Choose number</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Four</option>
+                            </select>
+
+                            <label>
+                                <input type="color" name="color">
+                            </label> <br>
+                            <label>
+                                <input type="date" name="date">
+                            </label> <br>
+                            <label>
+                                <input type="datetime-local" name="datetime">
+                            </label> <br>
+                            <label>
+                                <input type="file" name="file" multiple>
+                            </label> <br>
+                            <label>
+                                <input type="number" name="number" min="5" max="20" step="2">
+                            </label> <br>
+
+                            <input type="range" name="range" min="1" max="10" step="1">
+                        </label> <br>
+                        <label>
+                            <input type="search" name="search">
+                        </label> <br>
+                        <label>
+                            <input type="time" name="time">
+                        </label> <br>
+                        <label>
+                            <input type="week" name="week">
+                        </label> <br>
+                        <label>
+                            <input type="url" name="url">
+                        </label> <br>
+                        <label>
+                            <input type="url" name="url">
+                        </label> <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Radio group</legend>
+                        <label>
+                            <input type="radio" name="group" value="1">
+                            <span>One</span>
+                        </label> <br>
+                        <label>
+                            <input type="radio" name="group" value="2">
+                            <span>Two</span>
+                        </label> <br>
+                        <label>
+                            <input type="radio" name="group" value="3">
+                            <span>Three</span>
+                        </label> <br>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            <legend>checkbox group</legend>
+                            <input type="checkbox" check="group" value="1">
+                            <span>One</span>
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" check="group" value="2">
+                            <span>Two</span>
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" check="group" value="3">
+                            <span>Three</span>
+                        </label> <br>
+                        <label>
+                            <input type="checkbox" check="group2" value="4">
+                        </label> <br>
+
+                    </fieldset>
+                    <p>
+                        <button type="reset">Send</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

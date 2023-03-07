@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEARCH</title>
+
+</head>
+
+<p>перейти на страницу <a href="../authorization/authorization.html">authorization</a></p>
+<body>
+    <h1>forms</h1>
+    <form class="form" action="https://fom.in.ua/echo" method="post">
+        <fieldset>
+            <p>
+            <label>
+                <fieldset>
+                    <legend>course info</legend>
+                    <textarea placeholder="Message"></textarea>
+                </fieldset>
+                <select name="select" multiple>
+                    <option value="0" disabled selected>Choose number</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                </select>
+                <label>
+                    <input type="color" name="color">
+                </label> <br>
+                <label>
+                    <input type="date" name="date">
+                </label> <br>
+                <label>
+                    <input type="datetime-local" name="datetime">
+                </label> <br>
+                <label>
+                    <input type="file" name="file" multiple>
+                </label> <br>
+                <label>
+                    <input type="number" name="number" min="5" max="20" step="2">
+                </label> <br>
+                <input type="range" name="range" min="1" max="10" step="1">
+            </label> <br>
+            <label>
+                <input type="search" name="search">
+            </label> <br>
+            <label>
+                <input type="time" name="time">
+            </label> <br>
+            <label>
+                <input type="week" name="week">
+            </label> <br>
+            <label>
+                <input type="url" name="url">
+            </label> <br>
+            <label>
+                <input type="url" name="url">
+            </label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Radio group</legend>
+            <label>
+                <input type="radio" name="group" value="1">
+                <span>One</span>
+            </label> <br>
+            <label>
+                <input type="radio" name="group" value="2">
+                <span>Two</span>
+            </label> <br>
+            <label>
+                <input type="radio" name="group" value="3">
+                <span>Three</span>
+            </label> <br>
+        </fieldset>
+        <fieldset>
+            <label>
+                <legend>checkbox group</legend>
+                <input type="checkbox" check="group" value="1">
+                <span>One</span>
+            </label> <br>
+            <label>
+                <input type="checkbox" check="group" value="2">
+                <span>Two</span>
+            </label> <br>
+            <label>
+                <input type="checkbox" check="group" value="3">
+                <span>Three</span>
+            </label> <br>
+            <label>
+                <input type="checkbox" check="group2" value="4">
+            </label> <br>
+
+        </fieldset>
+        <p>
+            <button type="reset">Send</button>
+        </p>
+    </form>
+</body>
+</html>
