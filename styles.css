@@ -1,33 +1,21 @@
-body {
-  margin: 35px;
-  padding: 0px;
-  max-width: 400px;
-  border: box;
+* {
+  margin: 0px;
+  padding: 1px;
+
 }
 .py-rem {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-table,
-td {
-  border: 1px solid;
+.table {
+border: 1px solid;
+border-collapse: separate;
+text-indent: initial;
+border-spacing: 2pc;
+
 }
 td,
 th {
-  padding: 0.25rem 0.5rem;
+padding: 0.25rem 0.5rem;
 }
-.float4 {
-float: right;
-}
-.float3 {
-float: right;
-}
-.float2 {
-float: right;
-}
-.float1 {
-float: right;
-}
-.clearfix {
-clear: both;
-}
+
