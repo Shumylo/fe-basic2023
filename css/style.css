@@ -1,0 +1,90 @@
+.header {
+  pading-top: 79px;
+
+}
+.nav-link + .nav-link {
+  margin-left: 27px;
+  font-family: 'Roboto' sans-serif;
+  height: 27px;
+  font-size: 16px;
+  line-height: 26px;
+  flex: none;
+}
+.container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 27px;
+  width: 646px;
+  left: 399px;
+  top: 79px;
+  border-radius: 0px;
+}
+.fo {
+  position: absolute;
+  width: 1920px;
+  height: 151px;
+  left: 0px;
+  top: 2313px;
+  background: #34547a;
+}
+.header-nav li {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+display: flex;
+}
+.header-nav ul {
+display: flex;
+}
+
+
+.home-content {
+max-width: 440px;
+}
+.home {
+vin-height: 895px;
+padding-top: 175px;
+padding-bottom: 175px;
+}
+.h2 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.h3 {
+  font-family: Roboto;
+  font-size: 21px;
+  
+}
+.p2 {
+   position: flex;
+   height: 12px;
+   font-family: 'Roboto' sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   color: #FFFFFF
+}
+.fry {
+  position: absolute;
+  width: 1920px;
+  height: 250px;
+  left: 0px;
+  top: 1059px;
+background: #34547a
+}
+.footer {
+display: block;
+}
+.two {
+  position: absolute;
+  width: 1920px;
+  height: 250px;
+  left: 0px;
+  top: 1059px;
+  background: #34547a
+}
