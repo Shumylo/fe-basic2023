@@ -3,22 +3,26 @@
   src: url(./StyleScript-Regular.woff) format(woff2);
   font-weight: 400;
   font-style: normal;
-}
-@font-face {
-  font-family: 'strong';
-  src: url(./stsong_1_.woff) format(woff2);
-  font-weight: 300;
-  font-style: normal;
+  font-size: 175px;
 }
 @font-face {
   font-family: 'Inter-Regylar';
-  src: url(./Inter-Regular.woff2) format(woff2);
+  src: url(./fonts.css) format(woff2);
   font-weight: 400;
   font-style: normal;
+  font-size: 14px;
 }
 @font-face {
-  font-family: 'stsong.woff';
-  src: url(../font/stsong.woff);
+  font-family: 'STSong.woff2';
+  src: url(./STSong.woff2);
   font-weight: 300;
+  font-style: 'Regular';
+  font-size: 88px;
+}
+@font-face {
+  font-family: 'Style Script';
+  src: url(./StyleScript-Regular.woff2);
+  font-weight: 400;
   font-style: normal;
+  font-size: 137px;
 }
