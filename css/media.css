@@ -1,0 +1,57 @@
+@media print {
+  a {
+    /* display: none;*/
+    color: inherit !important;
+  }
+  img {
+    /*display: none;*/
+    filter: grayscale(1);
+  }
+  * {
+    color: black !important;
+  }
+}
+@media (min-width: 768px) {
+:root {
+--basic-indent: calc(var(--basic-space) * 4);
+}
+.burger,
+.hide_check {
+display: none;
+}
+.header .nav {
+transform: none;
+background: unset;
+position: static;
+color: inherit;
+inset: initial;
+flex-direction: row;
+padding: 10px;
+}
+}
+
+/*@media (max-width: 768px) {
+ .adress {
+ display: none;
+ }
+} */
+@media (min-width: 451px) and (max-width: 768px) {
+  .wrapper {
+    display: flex;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header .container {
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+  }
+  .card img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+ .wrapper {
+display: flex;
+}   
+}
