@@ -1,8 +1,21 @@
 :root {
---container-width: 1110px;
---basic-space: 15px;
---basic-indent: calc(var(--basic-space) * 2);
+  --container-width: 1440px;
+  --basic-space: 1rem;
+  --basic-indent: calc(var(--basic-space) * 2);
+  --text-color: #252525;
 }
+@media  (min-width: 320px) and (max-width: 1440px) {
+  :root {
+    --basic-space: 2rem;
+  }
+}
+
+@media  (min-width: 576px) and (max-width: 1199.98px) {
+  :root {
+    --basic-spase: 2rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,14 +23,14 @@
 }
 a,
 a:hover {
-color: inherit;
-text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
-/*body {
-min-height: 100vh;
-display: grid;
-grid-template-rows: auto 1fr auto;
-}*/
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
 img {
   max-width: 100%;
 }
@@ -29,15 +42,17 @@ html {
   color: #252525;
 }
 .container {
-  margin: auto;
+  width: 100%;
+  margin-left: auto;
   margin-right: auto;
   max-width: calc(var(--container-width) + var(--basic-space) * 2);
   padding-left: var(--basic-indent);
   padding-right: var(--basic-indent);
+  position: relative;
 }
 .hiden {
-display: none !important;
+  display: none !important;
 }
 .transition {
-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
