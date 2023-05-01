@@ -8,8 +8,12 @@
   max-width: calc(var(--container-width) + var(--basic-space) * 2);
   padding-left: var(--basic-space);
   padding-right: var(--basic-space);
-  max-width: 1920px;
-  max-height: 2266px;
+  width: 1440px;
+  height: 2118px;
+}
+.container {
+width: 130px;
+height: 60px;
 }
 .py-rem {
   padding-top: 1rem;
@@ -24,6 +28,7 @@ body.gradient.header {
   width: 100%;
   z-index: 1;
 }
+
 .bg-gradient {
   background: linear-gradient(
     228.57deg,
@@ -101,6 +106,10 @@ h1 {
   left: 50%;
   position: absolute;
 }
+.h4 {
+width: 860px;
+height: 184px;
+}
 .tab-pane {
   display: none;
 }
@@ -119,8 +128,8 @@ h1 {
   align-items: flex-start;
   padding: 0px;
   gap: 20px;
-  max-width: 493.33px;
-  max-height: 268px;
+  width: 493.33px;
+  height: 268px;
   flex: none;
   order: 0;
   flex-grow: 1;
@@ -136,8 +145,8 @@ h1 {
   align-items: flex-start;
   padding: 14px;
   gap: 10px;
-  max-width: 92px;
-  max-height: 92px;
+  width: 92px;
+  height: 92px;
   background: #ffffff;
   border-radius: 24px;
   flex: none;
@@ -160,8 +169,8 @@ top: 20px;
  -webkit-text-fill-color: transparent;
  background-clip: text;
  text-fill-color: transparent;
- max-width: 1140;
- max-height: 267px;
+ width: 1140;
+ height: 267px;
  flex: none;
  order: 1;
  align-self: stretch;
@@ -169,8 +178,8 @@ top: 20px;
 }
 .card {
 background-color: #f5f5fa;
-max-width: 1320px;
-min-height: 138px;
+width: 1320px;
+height: 138px;
 position: relative;
 margin-left: auto;
 margin-right: auto;
@@ -182,7 +191,7 @@ margin-top: 50px;
 .logo-wrap {
   margin-left: auto;
   margin-right: auto;
-max-width: 1720px;
+width: 1720px;
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(auto, 120px);
@@ -202,13 +211,13 @@ grid-template-columns: repeat(3, 1fr);
 @media (max-width: 550px) {
   .logo-wrap {
   grid-template-columns: 100%;
-  max-height: calc( var(--logo-height) * 6);
+  height: calc( var(--logo-height) * 6);
   overflow-y: auto;
   }
   .card {
   /*max-width: 360px;*/
   grid-template-columns: 100%;
-  max-height: calc( var(--logo-height) * 6);
+  height: calc( var(--logo-height) * 6);
   overflow-y: auto;
   }
   }
@@ -263,7 +272,7 @@ background: #000000;
   display: none;
 }
 .wrap_footer1 {
-  display: ;
+  display: inline-block;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
@@ -276,7 +285,7 @@ background: #000000;
   background-color: #f5f5fa;
 }
 .wrap_footer2 {
-  max-width: 400px;
+width: 400px;
 }
 text {
   position: relative;
@@ -296,4 +305,6 @@ display: flex;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr;
+width: 1320px;
+height: 344px;
 }
