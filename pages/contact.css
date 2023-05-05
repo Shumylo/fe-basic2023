@@ -1,33 +1,48 @@
+@import url(../assets/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css);
+@import url(../assets/bootstrap-5.0.2-dist/js/bootstrap.js);
 .container {
   max-width: 1440px;
   max-height: 978px;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
+@media screen and (max-width: 1440px) and (max-height: 978px) {
+  .container {
+    max-width: 1920px;
+    max-height: 978px;
+}
+}
+@media screen and (max-width: 320px) {
+    .container {
+      max-width: 360px;
+      max-height: 1407px;
+    }
+}
+ 
 .wrap_flex {
-margin-right: 60px;
-margin-left: 60px;
-max-width: 1320px;
-max-height: 116px;
+  margin-right: 60px;
+  margin-left: 60px;
+  max-width: 1320px;
+  max-height: 116px;
 }
 .wrap_1 {
-max-width: 510px;
-max-height: 60px;
-margin-left: 60px;
-margin-right: 60px;
+  max-width: 510px;
+  max-height: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .svg_1 {
-max-width: 20px;
+  max-width: 20px;
 }
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 .wrapper-flex {
   max-width: 1320px;
   min-height: 116px;
   display: flex;
-margin-left: 60px;
-margin-right: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
   /*flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
@@ -46,7 +61,7 @@ margin-right: 60px;
   flex-grow: 0;*/
   margin: 61px -60px 60px;
 }
-.flex.item2.group-item2 {
+/*.flex.item2.group-item2 {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
@@ -54,10 +69,11 @@ margin-right: 60px;
   gap: 381px;
   max-width: 478px;
   max-height: 25px;
-}
+  margin-left: -2px;
+}*/
 .adress_2 {
-margin-left: 25px;
-margin-right: 18px;
+  margin-left: 25px;
+  margin-right: 18px;
 }
 .nav-flex {
   display: flex;
@@ -74,7 +90,7 @@ margin-right: 18px;
 }
 .nav {
   gap: 15px;
-  margin-left: -371px;
+  margin-left: 658px;
   margin-top: 54px;
   display: flex;
   flex-direction: row;
@@ -91,179 +107,185 @@ margin-right: 18px;
   margin-right: 354px;
 }
 .body {
-margin: 0;
+  margin: 0;
 }
 .wrap_spacer {
-max-width: 1440px;
-max-height: 60px;
-margin-top: 116px;
+  max-width: 1440px;
+  max-height: 60px;
+  margin-top: 116px;
 }
 .form {
-max-width: 510px;
-max-height: 603px;
-background: #f5f5fa;
-border-radius: 12px;
-display:  flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 30px;
-gap: 30px;
-float: right;
-border: 1px solid #ffffff;
-margin-right: 180px;
-margin-top: -79px;
+  max-width: 510px;
+  max-height: 603px;
+  background: #f5f5fa;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 30px;
+  float: right;
+  border: 1px solid #ffffff;
+  margin-right: 180px;
+  margin-top: -79px;
 }
 span {
-color: #b3b3ba;
+  color: #b3b3ba;
 }
 input {
-border: #ffffff 1px solid;
-max-width: 450px;
-max-height: 56px;
-background: #ffffff;
-border-radius: 12px;
-text-decoration: #b3b3ba;
+  border: #ffffff 1px solid;
+  max-width: 450px;
+  max-height: 56px;
+  background: #ffffff;
+  border-radius: 12px;
+  text-decoration: #b3b3ba;
+}
+.bg-red {
+  color: #f0145a;
+}
+.addres_1:hover {
+  color: #f0145a;
 }
 .h1 {
-background:linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
-max-width: 450px;
-max-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  max-width: 450px;
+  max-height: 37px;
 }
 .wrap.footer1.flex {
-    background: #f5f5fa;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
-    max-width: 1440px;
-    max-height: 139px;
-    top: -2px;
-    position: relative;
-    margin-top: 379px;
-    z-index: -1;
-  }
-  .wrap.footer2.flex {
-    max-width: 281px;
-    max-height: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px 60px;
-    gap: 30px;
-    border-radius: 0;
-    flex: none;
-    order: 6;
-    align-items: stretch;
-    flex-grow: 0;
-    margin-top: -109px;
-    margin-left: 337px;
-  }
-  .wrap.footer3.flex {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0;
-    gap: 21px;
-    max-width: 398px;
-    max-height: 79px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background: #f5f5fa;
-  }
-  .wrap.footer4.flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
-    gap: 10px;
-    max-width: 281px;
-    max-height: 20px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    background: #f5f5fa;
-  }
-  .wrap.footer5.flex {
-    max-width: 398px;
-    max-height: 28px;
-    bottom: 50px;
-    position: relative;
-    background: #f5f5fa;
-  }
-  .map {
-    max-width: 58px;
-    max-height: 15px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #24a3ff;
-  }
-  .map:active {
-    color: #24a3ff;
-  }
-  .flex.item2.group-item2 {
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0px;
-    gap: 16px;
-    max-width: 478px;
-    max-height: 66px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    bottom: 132px;
-    left: 902px;
-    gap: 16px;
-    position: relative;
-  }
-  .more-svg1 {
-    position: relative;
-    left: 368px;
-    bottom: 54px;
-    border: none;
-    top: 84;
-  }
-  .more-svg2 {
-    position: relative;
-    left: 368px;
-    bottom: 54px;
-    border: none;
-    top: 0;
-  }
-  .more-svg3 {
-    position: relative;
-    left: 368px;
-    bottom: 54px;
-    border: none;
-    top: 0;
-  }
-  .more-svg4 {
-    position: relative;
-    left: 400.19px;
-    bottom: 84px;
-    border: none;
-  }
-  .more-svg5 {
-    position: relative;
-    left: 368px;
-    bottom: 52px;
-    border: none;
-  }
-  .more-svg6 {
-    position: relative;
-    left: 368px;
-    bottom: 54px;
-    border: none;
-  }
-  .p_hlegal {
-color: #b3b3ba;
-  }
+  background: #f5f5fa;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1440px;
+  max-height: 139px;
+  position: relative;
+  margin-top: 407px;
+  z-index: -1;
+}
+.wrap.footer2.flex {
+  max-width: 281px;
+  max-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 60px;
+  gap: 30px;
+  border-radius: 0;
+  flex: none;
+  order: 6;
+  align-items: stretch;
+  flex-grow: 0;
+  margin-top: -109px;
+  margin-left: 657px;
+}
+.wrap.footer3.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 21px;
+  max-width: 398px;
+  max-height: 79px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #f5f5fa;
+}
+.wrap.footer4.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 10px;
+  max-width: 281px;
+  max-height: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #f5f5fa;
+}
+.wrap.footer5.flex {
+  max-width: 398px;
+  max-height: 28px;
+  bottom: 50px;
+  position: relative;
+  background: #f5f5fa;
+}
+.map {
+  max-width: 58px;
+  max-height: 15px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+}
+.map:active {
+  color: #24a3ff;
+}
+.flex.item2.group-item2 {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 16px;
+  max-width: 478px;
+  max-height: 66px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  bottom: -51px;
+  left: -99px;
+  gap: 16px;
+  position: relative;
+  bottom: -51;
+}
+.more-svg1 {
+  position: relative;
+  left: 368px;
+  bottom: 54px;
+  border: none;
+  top: 84;
+}
+.more-svg2 {
+  position: relative;
+  left: 368px;
+  bottom: 54px;
+  border: none;
+  top: 0;
+}
+.more-svg3 {
+  position: relative;
+  left: 368px;
+  bottom: 54px;
+  border: none;
+  top: 0;
+}
+.more-svg4 {
+  position: relative;
+  left: 400.19px;
+  bottom: 84px;
+  border: none;
+}
+.more-svg5 {
+  position: relative;
+  left: 368px;
+  bottom: 52px;
+  border: none;
+}
+.more-svg6 {
+  position: relative;
+  left: 368px;
+  bottom: 54px;
+  border: none;
+}
+.p_hlegal {
+  color: #b3b3ba;
+}
